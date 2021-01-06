@@ -1,0 +1,19 @@
+
+
+//defining the variable of age
+const age= prompt('How old are you?')
+//defining the variable of time
+const day= prompt('What day is it Today? (all lower case)')
+//if it isnt sunday or saturday and you are under 18
+if ((day !== 'sunday') || (day !== 'Saturday') && (age <=18)) {
+//display 'time for school'
+document.write('Time For School!')
+//if it isnt sunday or saturday and over 18
+} else if ((day !== 'sunday') || (day !== 'Saturday') && (age >=18)) {
+//display 'time to go to work'
+document.write('Time to go to work!')
+//if all false
+} else {
+//display 'time to relax cuz weekend'
+  document.write('Time to relax cuz its the weekend.')
+}
